@@ -1,4 +1,4 @@
-# Unormalizebedgraphs v2.3
+# Unormalizebedgraphs v1
 
 import argparse
 import os
