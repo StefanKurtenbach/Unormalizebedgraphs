@@ -1,4 +1,4 @@
-# Unormalizebedgraphs v1
+# Unormalizebedgraphs v1.1
 
 import argparse
 import os
@@ -51,7 +51,7 @@ def add (input, newfile):
                     if float(line_split[3]) > 0:
                         for o in range(int(line_split[2]) - int(line_split[1])):
                             coord = o + int(line_split[1])
-                            output[coord] = output[coord] + float(line_split[3]) * factor
+                            output[coord] = output[coord] + float(line_split[3]) / factor
 
 
 
