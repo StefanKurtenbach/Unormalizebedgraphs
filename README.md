@@ -1,5 +1,5 @@
 # Unormalizebedgraphs
-Multiply all values in a bedgraph by a certain value
+Divide all values in a bedgraph by a certain value
 
 -o outputfilename -f file -n value
 
